@@ -220,3 +220,14 @@
         display: flex;
         gap: 40px;
     }
+
+    /* Social Link Icon BG color */
+    .s-icon{
+        background-color: #AAAAAA;
+        height: 55px;
+        width: 55px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
