@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    /*Google Code: Poppins Font Styles */
+    .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+    /* Common Styles */
+       :root{
+        --main-color-grey: #3A3A3A;
+        --button-color: #E02C6D;
+       }
+        /* Flex in a row and position centerd */
+        .flex-row-center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+    
+        }
+
+
+        /* Width of Section */
+        header{
+            max-width: 1280px;
+            margin: 0 auto;
+            /* display: flex; */
+            align-items: center;
+            /* justify-content: center; */
+        }
+
+        .btn-primary{
+            background-color: var(--button-color);
+            padding: 10px 24px;
+            border: none;
+            border-radius: 41px;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+
+    /* NAV Styles */
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul{
+        color: var(--main-color-grey);
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    nav a{
+        text-decoration: none;
+        color: var(--main-color-grey);
+    }
+/* Banner Section */
+.banner{
+    gap: 8rem;
+}
+
+.banner-right{
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+.banner-left h3{
+    color: var(--main-color-grey);
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+.banner-left p{
+    color: var(--main-color-grey);
+    font-size: 1rem;
+
+}
