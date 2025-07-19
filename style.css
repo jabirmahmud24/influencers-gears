@@ -129,3 +129,10 @@
         margin: 5px auto;
     }
    
+
+    /* Responsive Card Section  */
+    .card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
+    }
