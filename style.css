@@ -231,3 +231,99 @@
         align-items: center;
         justify-content: center;
     }
+
+
+
+
+    /* Small Device */
+    @media screen and (max-width: 576px){
+        nav, nav ul{
+            display: flex;
+            flex-direction: column;
+            gap:  10px;
+            padding: 0px;
+        }
+        nav h4{
+            margin: 2rem auto 0 auto;
+        }
+        /* Banner */
+        .banner{
+            flex-direction: column;
+            align-items: center;
+            margin: 1.25rem;
+            gap: 2rem;
+            
+        }
+        .banner button{
+           max-width: 194px;
+           max-height: 44px;
+           font-size: 1rem;
+           font-weight: 400;
+        }
+        .banner-left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid red;
+            
+        }
+        .banner-right{
+           background-size: cover;  
+        }
+        .banner >.banner-right{
+            order: -1;
+        }
+        .banner-right img{
+            max-height: 100%;
+             max-width: 100%;}
+
+        .banner-left h3{
+            font-size: 2rem;
+        }
+
+
+        /* MAIN SEC */
+        /* All Company Logo */
+        .all-company-logo{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,1fr);
+            
+        }
+        .all-company-logo img{
+            height: 60%;
+            width: 60%;
+           
+
+        }
+/* Card Section */
+        .card,footer{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        #see-more{
+            position: relative;
+            left: 1px;
+        }
+        /* Featured Section */
+        .featured{
+            display: flex;
+            flex-direction: column;
+        }
+        .featured> .featured-right{
+            order: -1;
+        }
+        .featured img{
+            max-height: 80%;
+            max-width: 80%;
+            padding:  30px;
+        }
+        .footer h4{
+            font-size: 1rem;
+            color: red
+
+        }
+
+    }
