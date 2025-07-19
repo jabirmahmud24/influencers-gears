@@ -32,6 +32,12 @@
             align-items: center;
             /* justify-content: center; */
         }
+        main{
+            max-width: 1050px;
+            margin: 0 auto;
+            align-items: center;
+            
+        }
 
         .btn-primary{
             background-color: var(--button-color);
@@ -80,3 +86,46 @@
     font-size: 1rem;
 
 }
+
+/* Main Section Start */
+    /* All company logo */
+    .all-company-logo{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7rem;
+        margin-bottom: 14rem;
+    }
+
+    /* Card Styles */
+    .single-card{
+        max-width: 20.5rem;
+        max-height: 30rem;
+        border-radius: 5px;
+        padding: 1rem;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+        background: rgb(255, 255, 255);
+    }
+    .single-card img{
+        width: 100%;
+    }
+     .single-card h4{
+        font-size: 1.75rem;
+        font-weight: 500;
+        color: var(--main-color-grey);
+        margin: 5px auto;
+     }
+     .single-card h5{
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #000000DE;
+        margin: 5px auto;
+     }
+     .ratings{
+        color: #e5a400;
+     }
+     .single-card p{
+        font-size: 1rem;
+        color: #787885;
+        margin: 5px auto;
+    }
+   
