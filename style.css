@@ -50,12 +50,22 @@
         }
 
     /* NAV Styles */
+    #web-logo{
+        font-size: 2rem;
+        font-weight: 700;
+        background: #121FCF;
+        background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+            }
     nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     nav ul{
+        font-size: 1.5rem;
+        font-weight: 400;
         color: var(--main-color-grey);
         list-style: none;
         display: flex;
@@ -67,6 +77,7 @@
         text-decoration: none;
         color: var(--main-color-grey);
     }
+   
 /* Banner Section */
 .banner{
     gap: 8rem;
@@ -88,12 +99,22 @@
 }
 
 /* Main Section Start */
+    #popular-collection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #121FCF;
+        background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     /* All company logo */
     .all-company-logo{
         display: flex;
         justify-content: space-between;
         margin-top: 7rem;
-        margin-bottom: 14rem;
+        margin-bottom: 5rem;
     }
 
     /* Card Styles */
@@ -136,3 +157,38 @@
         grid-template-columns: repeat(3,1fr);
         gap: 2rem;
     }
+    #see-more{
+        position: relative;
+        right: 0px;
+        top: 0px;
+        left: 60rem;
+        margin-top: 0px;
+       
+    }
+    #see-more a{
+        text-decoration: none;
+        color: var(--button-color);
+    }
+    /* Featured Section */
+    .featured{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+    }
+    .featured-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .featured h3{
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin: 0px;
+    }
+    .featured p{
+        font-size: 1rem;
+        color: var(--main-color-grey);
+    }
+    
